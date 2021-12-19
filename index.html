@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+  
+  
+    <link rel="stylesheet" type="text/css" href="indexff.css">
+</head>
+<body>
+  <form class="nav" id="myForm" action="/action_page.php">
+        <label>
+            Name
+        </label><br>
+        <input type="text" name="name" value=" "><br>
+        <label>Email</label></br>
+        <input type="email" name="email" value=" ">
+    </br>
+        <label>Password</label></br>
+        <input type="password" name="email" value=""></br>
+        <label>Gender</label></br>
+        <input type="radio" name="Gender">Male</input></br>
+        <input type="radio" name="Gender">Female</input></br></br>
+    <label>D.O.B</label></br>
+    <input type="date" name="date" value=""><br>
+     <label class="mod"><a href="new.html">I accept the Terms &  Condition</a></a></label>
+    <input type="checkbox" style="width: 1em ; height: 1em;" ><br>
+    <button onclick="SubmitEvent">Submit</button>
+  </form> 
+  <script>
+    function myFunction() {
+      document.getElementById("myForm").submit();
+    }
+    </script>
+</body>
+</html>
